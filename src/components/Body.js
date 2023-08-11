@@ -31,7 +31,13 @@ const Body = (props) => {
 
     return (
         <>
-            <div className="canvas" ref={myRef}>
+            <div className="hero">
+                <div className="canvas" ref={myRef}>
+                </div>
+                <div className="content">
+                    <p> Hello, I'm Adri</p>
+                    <h1>Software Developer</h1>
+                </div>
             </div>
         </>
     );

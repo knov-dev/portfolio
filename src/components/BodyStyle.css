@@ -16,3 +16,17 @@ canvas{
     top: 0;
     z-index: -4;
 }
+
+.hero{
+    height: 100%;
+    width:100%;
+}
+.hero .content{
+    position:relative;
+    transform: translate(-50%,300%);
+    top: 50%;
+    left:50%;
+    text-align: center;
+}
+
+
