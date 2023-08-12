@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link} from "react-scroll";
 import "./NavbarStyle.css"
 import {FaBars, FaTimes} from "react-icons/fa";
 import React, {useState} from "react";
@@ -7,22 +7,22 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-
+let brand = "<...>"
     return (
         <div className="header">
-            <h1>Adrian</h1>
+            <Link activeClass="active" to="hero" spy={true} smooth={true}><h1>{brand}</h1></Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link to="#about">About</Link>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} >About</Link>
                 </li>
                 <li>
-                    <Link to="#Journey">Journey</Link>
+                    <Link activeClass="active" to="journey" spy={true} smooth={true}>Journey</Link>
                 </li>
                 <li>
-                    <Link to="#Projects">Projects</Link>
+                    <Link activeClass="active" to="projects" spy={true} smooth={true}>Projects</Link>
                 </li>
                 <li>
-                    <Link to="#Contact">Contact</Link>
+                    <Link activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>

@@ -2,7 +2,7 @@ import "./BodyStyle.css";
 import NET from 'vanta/dist/vanta.net.min';
 import {useEffect, useRef, useState} from "react";
 import Paragraph from "./Paragraph";
-
+import {Element} from "react-scroll";
 const Body = (props) => {
 
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -34,11 +34,26 @@ const Body = (props) => {
             <div className="hero">
                 <div className="canvas" ref={myRef}>
                 </div>
-                <div className="content">
-                    <p> Hello, I'm Adri</p>
-                    <h1>Software Developer</h1>
-                </div>
+                <Element className="hero" id="hero">
+                    <div className="content">
+                        <p> Hello, I'm Adri</p>
+                        <h1>Software Developer</h1>
+                    </div>
+                </Element>
+                <Element className="about" id="about">
+                    <Paragraph/>
+                </Element>
+                <Element className="journey" id="journey">
+                    <Paragraph/>
+                </Element>
+                <Element className="projects" id="projects">
+                    <Paragraph/>
+                </Element>
+                <Element className="contact" id="contact">
+                    <Paragraph/>
+                </Element>
             </div>
+
         </>
     );
 }
