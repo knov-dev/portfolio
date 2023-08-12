@@ -44,13 +44,10 @@ const Body = (props) => {
                     <Paragraph/>
                 </Element>
                 <Element className="journey" id="journey">
-                    <Paragraph/>
                 </Element>
                 <Element className="projects" id="projects">
-                    <Paragraph/>
                 </Element>
                 <Element className="contact" id="contact">
-                    <Paragraph/>
                 </Element>
             </div>
 
