@@ -1,8 +1,10 @@
 import "../assets/shopped.jpg";
-const Paragraph = () => {
+import "./AboutStyle.css"
+const About = () => {
     return (
 
         <div className="paragraph-div">
+            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
             <div><img className="heroimg" src={require('../assets/shopped.jpg')} alt="Picture of the dev"></img></div>
 
             <p className="paragraph"> I am a Junior Software Developer with aspirations to become a Game
@@ -28,4 +30,4 @@ const Paragraph = () => {
     );
 }
 
-export default Paragraph;
+export default About;

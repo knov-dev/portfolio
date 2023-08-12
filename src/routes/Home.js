@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
-import Body from "../components/Body";
+import Content from "../components/Content";
 
 const Home = () => {
     return (
         <>
             <Navbar/>
-            <Body/>
+            <Content/>
         </>
     );
 }

@@ -1,9 +1,10 @@
-import "./BodyStyle.css";
+import "./ContentStyle.css";
 import NET from 'vanta/dist/vanta.net.min';
 import {useEffect, useRef, useState} from "react";
-import Paragraph from "./Paragraph";
+import About from "./About";
 import {Element} from "react-scroll";
-const Body = (props) => {
+import Journey from "./Journey";
+const Content = (props) => {
 
     const [vantaEffect, setVantaEffect] = useState(null);
     const myRef = useRef(null);
@@ -35,15 +36,16 @@ const Body = (props) => {
                 <div className="canvas" ref={myRef}>
                 </div>
                 <Element className="hero" id="hero">
-                    <div className="content">
+                    <div className="hero-container">
                         <p> Hello, I'm Adri</p>
                         <h1>Software Developer</h1>
                     </div>
                 </Element>
                 <Element className="about" id="about">
-                    <Paragraph/>
+                    <About/>
                 </Element>
                 <Element className="journey" id="journey">
+                    <Journey/>
                 </Element>
                 <Element className="projects" id="projects">
                 </Element>
@@ -55,4 +57,4 @@ const Body = (props) => {
     );
 }
 
-export default Body;
+export default Content;
