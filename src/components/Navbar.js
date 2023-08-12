@@ -13,16 +13,16 @@ let brand = "<...>"
             <Link activeClass="active" to="hero" spy={true} smooth={true}><h1>{brand}</h1></Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link activeClass="active" to="about" spy={true} smooth={true} >About</Link>
+                    <Link activeClass="active" to="about" spy={true} smooth={true}  onClick={handleClick}>About</Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="journey" spy={true} smooth={true}>Journey</Link>
+                    <Link activeClass="active" to="journey" spy={true} smooth={true} onClick={handleClick}>Journey</Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="projects" spy={true} smooth={true}>Projects</Link>
+                    <Link activeClass="active" to="projects" spy={true} smooth={true} onClick={handleClick}>Projects</Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link>
+                    <Link activeClass="active" to="contact" spy={true} smooth={true} onClick={handleClick}>Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
