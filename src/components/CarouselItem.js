@@ -1,9 +1,8 @@
-const CarouselItem = ({item}) => {
+const CarouselItem = ({card}) => {
     return (
         <div className="carousel-item">
-            <div></div>
-            <h1>{item.title}</h1>
-            <p>{item.description}</p>
+            <h1>{card.id}</h1>
+            {card.content}
         </div>
     );
 
