@@ -8,7 +8,7 @@
 .carousel {
     overflow: hidden;
     display: flex;
-    width: 700px;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
 }
@@ -23,14 +23,34 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 490px;
+    height: 70vh;
+    width: 100%;
 }
 
 .carousel-buttons{
     color: white;
 }
-
-
+.studies,.work,.skills{
+    height: 100%;
+    width: 100%;
+}
+.active{
+    display: inline-flex;
+    transition: 0.3s;
+}
+.hidden{
+    display: none;
+    transition: 0.5s;
+}
+.studies{
+    background-color: #74208f;
+}
+.work{
+    background-color: #8f8d20;
+}
+.skills{
+    background-color: #2f8f20;
+}
 @media screen and (max-width: 900px) {
 
 
