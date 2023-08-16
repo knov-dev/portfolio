@@ -6,21 +6,27 @@
 }
 
 .carousel {
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: flex;
     width: 50%;
     flex-direction: column;
     justify-content: center;
 }
-
+.courseDate{
+    justify-self: right;
+}
 .inner{
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     transition: transform 0.3s;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-
+.studies-list{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2%;
+}
 .carousel-item{
-    display: inline-flex;
+    /*display: inline-flex;*/
     align-items: center;
     justify-content: center;
     height: 70vh;
@@ -29,6 +35,8 @@
 
 .carousel-buttons{
     color: white;
+    display: inline-flex;
+justify-content: space-evenly;
 }
 .studies,.work,.skills{
     height: 100%;
@@ -43,13 +51,19 @@
     transition: 0.5s;
 }
 .studies{
-    background-color: #74208f;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    text-align: center;
 }
 .work{
     background-color: #8f8d20;
 }
 .skills{
     background-color: #2f8f20;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
 }
 @media screen and (max-width: 900px) {
 
