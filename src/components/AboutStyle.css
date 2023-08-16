@@ -18,6 +18,29 @@
     float: right;
     margin: 15px;
 }
+@media screen and (max-width: 1600px) {
+    .paragraph {
+        margin-top: 10%;
+        font-size:large;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        line-height:2;
+    }
+
+    .heroimg {
+        height: 40vh;
+        border-radius: 20px;
+        float: right;
+        margin-top: 10%;
+    }
+
+    .paragraph-div {
+        margin-top: 35%;
+        padding: 5%;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+}
 
 @media screen and (max-width: 900px) {
     .paragraph {
@@ -42,3 +65,4 @@
         background-color: rgba(0, 0, 0, 0.15);
     }
 }
+
