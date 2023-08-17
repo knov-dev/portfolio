@@ -11,11 +11,9 @@ const Studies = ({activeIndex}) => {
                     lifeLike: false,
                     speed: 1,
                     strings: "Studies",
-                    waitUntilVisible: true,
-                    afterComplete: function (instance) {
-                        instance.destroy();
-                    }
-                }}/></h1>
+                    waitUntilVisible: true
+                }}/>
+                </h1>
                 <div className="hnd" style={{padding: 25}}>
                     <h3 className="title"><TypeIt options={{
                         startDelay: 700,
@@ -24,9 +22,6 @@ const Studies = ({activeIndex}) => {
                         lifeLike: false,
                         strings: "Software Development HND",
                         waitUntilVisible: true,
-                        afterComplete: function (instance) {
-                            instance.destroy();
-                        }
                     }}/>
                         <TypeIt className="courseDate" style={{marginLeft: 50}} options={{
                             cursor: false,
@@ -34,9 +29,7 @@ const Studies = ({activeIndex}) => {
                             startDelay: 2000,
                             speed: 1,
                             strings: "2021-2023",
-                            afterComplete: function (instance) {
-                                instance.destroy();
-                            }
+                            waitUntilVisible: true
                         }}/>
                     </h3>
                     <div className="studies-list">
@@ -46,7 +39,8 @@ const Studies = ({activeIndex}) => {
                                 lifeLike: false,
                                 cursor: false,
                                 strings: "- Two Year SCQF 8 at Edinburgh College",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -55,7 +49,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Advanced programming techniques in Java and PHP",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -64,7 +59,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Object-oriented Analysis and Design",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -73,7 +69,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Relational databases and server applications",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -82,7 +79,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Unit testing / Troubleshooting",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                     </div>
@@ -94,9 +92,7 @@ const Studies = ({activeIndex}) => {
                         startDelay: 2500,
                         speed: 1,
                         strings: "Software Development and Web NPA",
-                        afterComplete: function (instance) {
-                            instance.destroy();
-                        }
+                        waitUntilVisible: true
                     }}/>
                         <TypeIt style={{marginLeft: 50}} options={{
                             cursor: false,
@@ -104,9 +100,7 @@ const Studies = ({activeIndex}) => {
                             startDelay: 3800,
                             speed: 1,
                             strings: "2020-2021",
-                            afterComplete: function (instance) {
-                                instance.destroy();
-                            }
+                            waitUntilVisible: true
                         }}/>
                     </h3>
                     <div className="studies-list">
@@ -116,7 +110,8 @@ const Studies = ({activeIndex}) => {
                                 lifeLike: false,
                                 cursor: false,
                                 strings: "- SCQF 6 one year programming course",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -125,7 +120,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Basic OOP concepts in Python and C#",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -134,7 +130,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- SQL and initial database knowledge",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -143,7 +140,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Understanding of computer systems and hardware",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                     </div>
@@ -155,9 +153,7 @@ const Studies = ({activeIndex}) => {
                         startDelay: 4200,
                         speed: 1,
                         strings: "Social Software and Computing NA",
-                        afterComplete: function (instance) {
-                            instance.destroy();
-                        }
+                        waitUntilVisible: true
                     }}/>
                         <TypeIt style={{marginLeft: 50}} options={{
                             lifeLike: false,
@@ -165,9 +161,7 @@ const Studies = ({activeIndex}) => {
                             startDelay: 5700,
                             speed: 1,
                             strings: "2019-2020",
-                            afterComplete: function (instance) {
-                                instance.destroy();
-                            }
+                            waitUntilVisible: true
                         }}/>
                     </h3>
                     <div className="studies-list">
@@ -177,7 +171,8 @@ const Studies = ({activeIndex}) => {
                                 lifeLike: false,
                                 cursor: false,
                                 strings: "- SCQF 4 one year initiation course",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -186,7 +181,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- Basics of technology and applications",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                         <p>
@@ -195,7 +191,8 @@ const Studies = ({activeIndex}) => {
                                 cursor: false,
                                 lifeLike: false,
                                 strings: "- First contact with programming in VBasic",
-                                speed: 1
+                                speed: 1,
+                                waitUntilVisible: true
                             }}/>
                         </p>
                     </div>

@@ -20,7 +20,7 @@
     transition: transform 0.3s;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-.studies-list{
+.studies-list, .work-list{
     text-align: left;
     padding-left: 10%;
     padding-top: 2%;
@@ -41,25 +41,17 @@ justify-content: space-evenly;
 .studies,.work,.skills{
     height: 100%;
     width: 100%;
-}
-.active{
-    display: inline-flex;
-    transition: 0.3s;
-}
-.hidden{
-    display: none;
-    transition: 0.5s;
-}
-.studies{
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     text-align: center;
 }
-.work{
-    background-color: #8f8d20;
+.active{
+    /*display: inline-flex;*/
+    transition: 1s;
 }
-.skills{
-    background-color: #2f8f20;
+.hidden{
+    display: none;
+    transition: 1s;
 }
 .title{
     display: flex;
