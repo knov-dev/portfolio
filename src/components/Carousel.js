@@ -28,13 +28,9 @@ const Carousel = () => {
             <div className="carousel-buttons">
                 <button onClick={() => updateIndex(activeIndex - 1)}><BsFillArrowLeftSquareFill size={30}/></button>
                 <div className="indicators">
-                    <button onClick={() => {
-                        updateIndex(activeIndex);
-                    }} className="indicator-buttons">
-                        {activeIndex === 0 ? <BiRadioCircleMarked/> : <BiRadioCircle/>}
-                        {activeIndex === 1 ? <BiRadioCircleMarked/> : <BiRadioCircle/>}
-                        {activeIndex === 2 ? <BiRadioCircleMarked/> : <BiRadioCircle/>}
-                    </button>
+                    <a className="indicator-item" onClick={()=> updateIndex(0)} style={activeIndex === 0 ?{textDecoration:"underline"}: {}}>Studies</a>
+                    <a className="indicator-item" onClick={()=> updateIndex(1)} style={activeIndex === 1 ?{textDecoration:"underline"}: {}}>Work</a>
+                    <a className="indicator-item" onClick={()=> updateIndex(2)} style={activeIndex === 2 ?{textDecoration:"underline"}: {}}>Skills</a>
                 </div>
                 <button onClick={() => updateIndex(activeIndex + 1)}><BsFillArrowRightSquareFill size={30}/>
                 </button>

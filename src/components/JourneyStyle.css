@@ -15,6 +15,7 @@
 .courseDate{
     justify-self: right;
 }
+
 .inner{
     /*white-space: nowrap;*/
     transition: transform 0.3s;
@@ -22,9 +23,13 @@
 }
 .studies-list, .work-list{
     text-align: left;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 2%;
 }
+.languages-list, .framework-list{
+    text-align: left;
+}
+
 .carousel-item{
     /*display: inline-flex;*/
     align-items: center;
@@ -34,10 +39,12 @@
 }
 
 .carousel-buttons{
+    margin-top: 2%;
     color: white;
     display: inline-flex;
-justify-content: space-evenly;
+    justify-content: space-evenly;
 }
+
 .studies,.work,.skills{
     height: 100%;
     width: 100%;
@@ -45,19 +52,51 @@ justify-content: space-evenly;
     border-radius: 20px;
     text-align: center;
 }
-.active{
+.visible{
     /*display: inline-flex;*/
-    transition: 1s;
+    animation: fadeIn 1s;
 }
 .hidden{
+    animation: fadeOut 2s;
     display: none;
-    transition: 1s;
 }
 .title{
+    display: flex;
+    justify-content: space-between;
+}
+.indicator-item{
+    padding: 10px;
+}
+.position{
+    margin-top: 10px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+}
+.programming-language,.framework-item{
+    margin-bottom: 10px;
+}
+.skills-container,.softSkillsContainer{
     display: flex;
     justify-content: space-around;
 }
 @media screen and (max-width: 900px) {
+}
 
 
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

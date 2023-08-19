@@ -49,6 +49,8 @@ const Content = (props) => {
                 </Element>
                 <Element className="projects" id="projects">
                 </Element>
+                <Element className="testimonials" id="testimonials">
+                </Element>
                 <Element className="contact" id="contact">
                 </Element>
             </div>

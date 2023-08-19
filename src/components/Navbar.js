@@ -22,6 +22,9 @@ let brand = "<...>"
                     <Link activeClass="active" to="projects" spy={true} smooth={true} onClick={handleClick}>Projects</Link>
                 </li>
                 <li>
+                    <Link activeClass="active" to="testimonials" spy={true} smooth={true} onClick={handleClick}>Testimonials</Link>
+                </li>
+                <li>
                     <Link activeClass="active" to="contact" spy={true} smooth={true} onClick={handleClick}>Contact</Link>
                 </li>
             </ul>

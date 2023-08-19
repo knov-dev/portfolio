@@ -32,7 +32,7 @@ canvas {
     text-align: center;
 }
 
-.about, .journey, .projects, .contact {
+.about, .journey, .projects,.testimonials, .contact {
     height: 100vh;
 }
 
