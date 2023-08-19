@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Plexio",
+    "type": "WebApp",
+    "tech": "PHP",
+    "description": "",
+    "url": "",
+    "prj-img": ""
+  },
+  {
+    "name": "SMT Calculator",
+    "type": "WebApp",
+    "tech": "React, Express, Node",
+    "description": "",
+    "url": "",
+    "prj-img": ""
+  },
+  {
+    "name": "Demon",
+    "type": "Videogame",
+    "tech": "C#, Unity",
+    "description": "",
+    "url": "",
+    "prj-img": ""
+  },
+  {
+    "name" : "I Remember",
+    "type": "Videogame",
+    "tech": "C#, Unity",
+    "description" : "",
+    "url" : "",
+    "prj-img": ""
+  }
+]
