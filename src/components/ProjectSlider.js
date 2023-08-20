@@ -2,7 +2,7 @@ import "./projects.json";
 const ProjectSlider =() =>{
 
     return(
-        <div className="projects">
+        <div className="projects-container">
 
         </div>
     );
