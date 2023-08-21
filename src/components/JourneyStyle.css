@@ -44,7 +44,9 @@
     display: inline-flex;
     justify-content: space-evenly;
 }
-
+.progress-bar{
+    display: initial;
+}
 .studies,.work,.skills{
     height: 100%;
     width: 100%;

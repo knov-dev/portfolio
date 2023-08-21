@@ -40,13 +40,13 @@ const Skills = ({activeIndex}) => {
                                         waitUntilVisible: true
                                     }}/>
                                 </p>
-                                <ProgressBar
-                                    completed={80}
-                                    bgColor="#3C2CA7FF"
-                                    transitionDuration=""
-                                    animateOnRender={true}
-                                    maxCompleted={100}
-                                    width={250}
+                                <ProgressBar className="progress-bar"
+                                      completed={80}
+                                      bgColor="#3C2CA7FF"
+                                      transitionDuration=""
+                                      animateOnRender={activeIndex === 2}
+                                      maxCompleted={100}
+                                      width={250}
                                 />
                             </div>
                             <div className="programming-language">
@@ -251,7 +251,7 @@ const Skills = ({activeIndex}) => {
                                     completed={75}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />

@@ -3,32 +3,40 @@
     "name": "Plexio",
     "type": "WebApp",
     "tech": "PHP",
-    "description": "",
-    "url": "",
-    "prj-img": ""
+    "description": "Pedro eres wapisimo te amo vale muaaaaak <3 <3",
+    "url": "https://www.google.com",
+    "img": "https://placehold.co/600x400"
   },
   {
     "name": "SMT Calculator",
     "type": "WebApp",
     "tech": "React, Express, Node",
-    "description": "",
-    "url": "",
-    "prj-img": ""
+    "description": "Pedro eres wapisimo te amo vale muaaaaak <3 <3",
+    "url": "https://www.google.com",
+    "img": "https://placehold.co/600x400"
   },
   {
     "name": "Demon",
     "type": "Videogame",
     "tech": "C#, Unity",
-    "description": "",
-    "url": "",
-    "prj-img": ""
+    "description": "Pedro eres wapisimo te amo vale muaaaaak <3 <3",
+    "url": "https://www.google.com",
+    "img": "https://placehold.co/600x400"
   },
   {
     "name" : "I Remember",
     "type": "Videogame",
     "tech": "C#, Unity",
-    "description" : "",
-    "url" : "",
-    "prj-img": ""
+    "description" : "Pedro eres wapisimo te amo vale muaaaaak <3 <3",
+    "url" : "https://www.google.com",
+    "img": "https://placehold.co/600x400"
+  },
+  {
+    "name" : "Ourpropertybear",
+    "type": "Videogame",
+    "tech": "C#, Unity",
+    "description" : "Pedro eres wapisimo te amo vale muaaaaak <3 <3",
+    "url" : "https://www.google.com",
+    "img": "https://placehold.co/600x400"
   }
 ]
