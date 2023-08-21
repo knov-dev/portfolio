@@ -64,7 +64,7 @@ const Skills = ({activeIndex}) => {
                                     completed={70}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -84,7 +84,7 @@ const Skills = ({activeIndex}) => {
                                     completed={50}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -104,7 +104,7 @@ const Skills = ({activeIndex}) => {
                                     completed={45}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -137,7 +137,7 @@ const Skills = ({activeIndex}) => {
                                     completed={50}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -157,7 +157,7 @@ const Skills = ({activeIndex}) => {
                                     completed={45}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -177,7 +177,7 @@ const Skills = ({activeIndex}) => {
                                     completed={30}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -197,7 +197,7 @@ const Skills = ({activeIndex}) => {
                                     completed={30}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -217,7 +217,7 @@ const Skills = ({activeIndex}) => {
                                     completed={25}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -271,7 +271,7 @@ const Skills = ({activeIndex}) => {
                                     completed={70}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -291,7 +291,7 @@ const Skills = ({activeIndex}) => {
                                     completed={65}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -311,7 +311,7 @@ const Skills = ({activeIndex}) => {
                                     completed={50}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -331,7 +331,7 @@ const Skills = ({activeIndex}) => {
                                     completed={40}
                                     bgColor="#3C2CA7FF"
                                     transitionDuration=""
-                                    animateOnRender={true}
+                                    animateOnRender={activeIndex === 2}
                                     maxCompleted={100}
                                     width={250}
                                 />
@@ -369,7 +369,7 @@ const Skills = ({activeIndex}) => {
                                         completed={97}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -389,7 +389,7 @@ const Skills = ({activeIndex}) => {
                                         completed={90}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -409,7 +409,7 @@ const Skills = ({activeIndex}) => {
                                         completed={85}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -429,7 +429,7 @@ const Skills = ({activeIndex}) => {
                                         completed={85}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -449,7 +449,7 @@ const Skills = ({activeIndex}) => {
                                         completed={75}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -473,7 +473,7 @@ const Skills = ({activeIndex}) => {
                                         completed={95}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -493,7 +493,7 @@ const Skills = ({activeIndex}) => {
                                         completed={87}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -513,7 +513,7 @@ const Skills = ({activeIndex}) => {
                                         completed={85}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />
@@ -533,7 +533,7 @@ const Skills = ({activeIndex}) => {
                                         completed={45}
                                         bgColor="#3C2CA7FF"
                                         transitionDuration=""
-                                        animateOnRender={true}
+                                        animateOnRender={activeIndex === 2}
                                         maxCompleted={100}
                                         width={250}
                                     />

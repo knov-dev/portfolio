@@ -1,5 +1,6 @@
-import "./projects.json";
-const ProjectSlider =() =>{
+import Projects from "./projects.json"
+
+const ProjectSlider = () => {
 
     return (
         <div className="projects-container">
