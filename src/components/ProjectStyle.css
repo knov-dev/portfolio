@@ -1,15 +1,32 @@
-.projects-container{
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     width: 100%;
     height: auto;
+    padding: 50px;
 }
-.card{
-    margin-top: 40px;
+
+.card {
+    width: 20%;
+    height: 300px;
+    margin: 40px 20px 0 20px;
+    padding: 8.5rem 0 0;
+    background-position: center;
 }
-.cardimg{
-    width: 40vh;
-    height: auto;
+
+.card-content{
+    padding: 1.5rem;
+    background: linear-gradient(
+    rgba(0,0,0,0.8) 10%,
+    rgba(0,0,0,0.4)
+    );
+}
+
+@media screen and (max-width: 1600px){
+    .card{
+
+        height: 250px;
+    }
 }
