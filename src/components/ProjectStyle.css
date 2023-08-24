@@ -8,7 +8,17 @@
     padding: 50px;
 }
 
+.card {
+    max-width: 35ch;
+    height: 300px;
+    margin: 40px 20px 0 20px;
+    padding: 8.5rem 0 0;
+    background-position: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
 
+}
 .card:hover{
     transform:scale(1.10);
 }
