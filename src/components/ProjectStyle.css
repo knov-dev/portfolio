@@ -9,24 +9,51 @@
 }
 
 .card {
-    width: 20%;
+    max-width: 35ch;
     height: 300px;
     margin: 40px 20px 0 20px;
     padding: 8.5rem 0 0;
     background-position: center;
-}
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
 
-.card-content{
-    padding: 1.5rem;
+}
+.card:hover{
+    transform:scale(1.10);
+}
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
     background: linear-gradient(
-    rgba(0,0,0,0.8) 10%,
-    rgba(0,0,0,0.4)
+            rgba(0, 0, 0, 0.8) 10%,
+            rgba(0, 0, 0, 0.4)
     );
 }
 
-@media screen and (max-width: 1600px){
-    .card{
+.card-title {
+    position: relative;
+    width: max-content;
 
+}
+
+.card-body {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% * var(--padding));
+    background: rgb(60, 44, 167);
+}
+
+
+@media screen and (max-width: 1600px) {
+    .card {
         height: 250px;
     }
 }
