@@ -1,11 +1,10 @@
-import "../assets/shopped.jpg";
 import "./AboutStyle.css"
 const About = () => {
     return (
 
         <div className="paragraph-div">
             {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-            <div><img className="heroimg" src={require('../assets/shopped.jpg')} alt="Picture of the dev"></img></div>
+            <div><img className="heroimg" src={'../assets/shopped.jpg'} alt="Picture of the dev"></img></div>
 
             <p className="paragraph"> I am a Junior Software Developer with aspirations to become a Game
                 Programmer, who is driven by a genuine
