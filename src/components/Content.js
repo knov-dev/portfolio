@@ -6,6 +6,7 @@ import {Element} from "react-scroll";
 import Journey from "./Journey";
 import Projects from "./Projects";
 import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 const Content = () => {
 
     const [vantaEffect, setVantaEffect] = useState(null);
@@ -56,6 +57,7 @@ const Content = () => {
                     <Testimonials/>
                 </Element>
                 <Element className="contact" id="contact">
+                    <Contact/>
                 </Element>
             </div>
 
