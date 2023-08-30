@@ -1,0 +1,24 @@
+.pagination-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.pagination-item{
+    margin: 1%;
+}
+.testimonials-container{
+    padding: 2%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonials-container p,h3{
+    color:black;
+}
+.testimonial-card{
+    padding:3%;
+    margin: 2%;
+    max-width: 40ch;
+    border-radius: 50px;
+    background-color: white;
+}
