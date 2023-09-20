@@ -9,7 +9,7 @@ const Contact = () => {
     const [emailSent, setEmailSent] = useState(false);
     const submit = () => {
         if (name && email && message) {
-            const serviceId = 'service_7sehjui';
+            const serviceId = 'service_03hylwu';
             const templateId = 'template_gkg7rso';
             const userId = 'PUx7L7zYPCewIvK3l';
             const templateParams = {

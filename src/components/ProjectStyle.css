@@ -104,8 +104,13 @@
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 900px) {
     .card {
         height: 250px;
+
+
+    }
+    .projects-container {
+        height: 100%;
     }
 }
