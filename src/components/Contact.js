@@ -1,6 +1,8 @@
 import emailjs from 'emailjs-com'
-import { init } from 'emailjs-com';
+import {init} from 'emailjs-com';
 import {useState} from "react";
+import "./ContactStyle.css";
+
 init('user_id');
 const Contact = () => {
     const [name, setName] = useState('');
@@ -36,13 +38,19 @@ const Contact = () => {
     };
     return (
         <>
-            <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)}/>
-            <input type="email" placeholder="Your email address" value={email}
-                   onChange={e => setEmail(e.target.value)}/>
-            <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-            <button onClick={submit}>Send Message</button>
-            <span
-                className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+            <div className="contact-container">
+                <div className="user-details">
+                    <input className="contact-name" type="text" placeholder="Your Name" value={name}
+                           onChange={e => setName(e.target.value)}/>
+                    <input className="contact-email" type="email" placeholder="Your email address" value={email}
+                           onChange={e => setEmail(e.target.value)}/>
+                </div>
+                <textarea className="contact-msg" placeholder="Your message" value={message}
+                          onChange={e => setMessage(e.target.value)}></textarea>
+                <button className="contact-btn" onClick={submit}>Send Message</button>
+                <span
+                    className={emailSent ? 'visible contact-success' : null}>Thank you for your message, we will be in touch in no time!</span>
+            </div>
         </>
     );
 };

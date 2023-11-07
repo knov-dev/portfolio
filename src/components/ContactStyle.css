@@ -1,0 +1,35 @@
+:root {
+    --radius: 5px;
+}
+
+.contact-container {
+    border-radius: var(--radius);
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    padding: 20% 10%;
+}
+
+.user-details {
+    border-radius: var(--radius);
+    align-content: space-evenly;
+    display: flex;
+
+}
+
+.contact-email {
+    border-radius: var(--radius);
+    margin-left: 5%;
+}
+
+.contact-msg {
+    border-radius: var(--radius);
+    margin-top: 5%;
+}
+
+.contact-btn {
+    border-radius: var(--radius);
+    justify-self: right;
+    width: 50%;
+    margin-top: 5%;
+}
